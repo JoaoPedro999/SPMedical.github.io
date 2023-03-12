@@ -1,0 +1,109 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>SP Medical Group</title>
+  <link href="estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="cabecalho">
+
+
+    <div class="logo2"><img src="Logo.png" height="40" id="logo"></div>
+    <div class="titulo">
+      <h1>SP MEDICAL GROUP</h1>
+    </div>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="#">=</a>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../registro/registro.html">Login</a></li>
+            <li><a href="../Consultas/Consultas.html">Consultas</a></li>
+            <li><a href="#">Dowload</a></li>
+
+          </ul>
+
+      </ul>
+    </nav>
+  </div>
+  <div class="minibar">
+ <img src="email.png" height="20px"><b>spmedical@email.com <img src="telefone.png" height="20px"left="20px">     <b>  (19)9580-0029
+  </div>
+  <!-- espaçamento -->
+  <div class="espacamento1"></div>
+
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">      
+      <!-- FORMULÁRIO DE LOGIN -->
+      <div id="login">
+        <form method="post" action=""> 
+          <h2>Login</h2> 
+          <p> 
+            <label for="nome_login">Seu e-mail</label>
+            <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex. example@example.com"/>
+          </p>
+           
+          <p> 
+            <label for="email_login">Sua senha</label>
+            <input id="email_login" name="email_login" required="required" type="password" placeholder="ex. senha" /> 
+          </p>
+           
+          <p> 
+            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+            <label for="manterlogado">Manter-me logado</label>
+          </p>
+           
+          <p> 
+            <input type="submit" value="Logar" /> 
+          </p>
+           
+          <p class="link">
+            Ainda não tem conta?
+            <a href="#paracadastro">Cadastre-se</a>
+          </p>
+        </form>
+      </div>
+ 
+      <!-- FORMULÁRIO DE CADASTRO -->
+      <div id="cadastro">
+        <form method="post" action=""> 
+          <h2>Cadastro</h2> 
+           
+          <p> 
+            <label for="nome_cad">Seu nome</label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+          </p>
+           
+          <p> 
+            <label for="email_cad">Seu e-mail</label>
+            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="example@example.com"/> 
+          </p>
+           
+          <p> 
+            <label for="senha_cad">Sua senha</label>
+            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+          </p>
+           
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>
+           
+          <p class="link">  
+            Já tem conta?
+            <a href="#paralogin"> Ir para Login </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>  
+   
+</body>
+
+</html>
