@@ -350,15 +350,15 @@ menu.absolute {
 .b1{
   position: absolute;
   top: 200px;
-  right: 45%;
+  right: 40%;
 }
 .b2{
   position: absolute;
   top: 200px;
-  right: 40%;
+  right: 35%;
 }
 .b3{
   position: absolute;
   top: 200px;
-  right: 35%;
+  right: 30%;
 }
