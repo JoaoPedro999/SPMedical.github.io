@@ -120,7 +120,7 @@ menu.absolute {
 
 /* doutores */
 
-.1_151 { 
+.e1_151 { 
 	overflow:hidden;
 }
 .e1_151 { 
@@ -341,4 +341,8 @@ menu.absolute {
   position: absolute;
   top: 200px;
   right: 45%;
+}
+.botao{
+	background-color: #c0c0c0;
+	height: 50px;
 }
