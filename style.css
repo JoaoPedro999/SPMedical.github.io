@@ -121,7 +121,10 @@ menu.absolute {
 /* doutores */
 
 .e1_151 { 
-	overflow:hidden;
+	width: 100%;
+	position: absolute;
+	top: 800px;
+	left: 200px;
 }
 .e1_151 { 
 	width:1345.2779541015625px;
@@ -281,7 +284,7 @@ menu.absolute {
 	width:585px;
 	height:68px;
 	position:absolute;
-	left:0px;
+	left:45%;
 	top:0px;
 	font-family:Inter;
 	text-align:left;
@@ -308,7 +311,7 @@ menu.absolute {
 }
 .rodape{
   background-color: #c0c0c0;
-  width: 200%;
+  width: 100%;
   height: 300px;
 }
 .minibar{
