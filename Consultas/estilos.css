@@ -10,15 +10,8 @@ font-family: arial, helvetica, sans-serif;
 font-size: 12px;
 }
 
-/*.menu{
-list-style:none;
-border:1px solid #c0c0c0;
-float:left;
-} */
-
 #upperbar {
-  /*box-sizing: border-box;*/
-  /*border: 2px solid #000; */
+
   background-color: #c0c0c0;
   height: 100px;
   
@@ -26,28 +19,12 @@ float:left;
 .logo2 {
  float: left; 
 }
-
-/*.cabecalho {
-  position: absolute;
-  top: 80px;
-  right: 0;
-  width: 300px;
-  height: 100px;
-  background-color: #000000;
-}*/
 body {
   font-size: 14px;
 }
-/*
-#upperbar {
-  background: rgba(177,180,180,1);
-  width: 100%;
-  height: 100px;
-  display: none; 
-} */
 
 #logo {
-  /*height:1px;*/
+
   height:40px;
   
 }
@@ -60,7 +37,6 @@ menu.absolute {
   height: 100px;
   border: 3px solid #73AD21;
 }
-/*menu */ 
 *{
   margin:0px;
   padding: 0px;
@@ -76,7 +52,7 @@ menu.absolute {
 .menu ul{
   list-style: none;
   position: relative;
-  text-align: :right;
+  text-align: right;
 }
 .menu ul li{
   width: 100px;
@@ -103,7 +79,7 @@ menu.absolute {
   color: #fff;
 }
 .menu ul ul li{
-  float:none
+  float:none;
   border-bottom: solid 1px #c0c0c0; 
 } 
 /**/
@@ -138,5 +114,19 @@ menu.absolute {
 }
 .consultas{
   top:700px;
-  text-align: center;
 }
+
+/**/
+
+main{
+  display: inline-block;
+  margin-left: 30px;
+}
+button{
+  width: 120px;
+  height: 30px;
+}
+#consultas-container{
+  margin-left: 30px;
+}
+
